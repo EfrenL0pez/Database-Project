@@ -1,0 +1,97 @@
+.login{
+    height: 120vh;
+    width: 100vw;
+    background-image: url('../images/log_background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.header-container{
+    height: 11vh;
+    width: 100vw;
+    box-shadow: 1px 1px 50px #f3f3f2;
+    backdrop-filter: blur(10px);
+    position: relative;
+    top: 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.logo-container{
+    max-width: 20%;
+    height: 100%;
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+}
+.home-logo{
+    max-width: 100%;
+    height: 60%;
+}
+.login-page-container{
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+.login-page-container-card{
+    box-shadow: 3px 10px 30px #000000;
+    backdrop-filter: blur(10px);
+    width: 30rem;
+    height: 30rem;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    width: 100vw;
+    height: 7rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
